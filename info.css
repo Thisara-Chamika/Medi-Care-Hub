@@ -1,0 +1,70 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #000000;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+div {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+h1 {
+    color: #1B1464;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+h2, h3 {
+    color: #1B1464;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+/* Disease Sections */
+.disease {
+    margin-bottom: 40px;
+    padding: 20px;
+    border-left: 4px solid #1B1464;
+    background-color: #f1f4ff;
+    border-radius: 8px;
+}
+
+.disease ul {
+    padding-left: 20px;
+}
+
+.disease-list ul {
+    list-style: square;
+    padding-left: 25px;
+}
+
+/* Links */
+a {
+    color: #1B1464;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive text and spacing */
+p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* Bootstrap Utility (if needed) */
+.mt-4 {
+    margin-top: 1.5rem !important;
+}
+
