@@ -4,6 +4,11 @@ body {
   font-family: Arial, sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
 h1 {
   font-weight: bolder;
   color: #1B1464;
